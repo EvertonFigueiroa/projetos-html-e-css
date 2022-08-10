@@ -18,11 +18,12 @@ body {
 
 img.lado {
     float: right;
+    
 }
 
 main {
     background-color: rgb(100, 96, 89);
-    width: 500px;
+    width: 600px;
     margin: auto;
     padding: 10px;
     box-shadow: 13px 13px 15px rgb(155, 59, 59);
