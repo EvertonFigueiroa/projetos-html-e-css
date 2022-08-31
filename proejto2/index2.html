@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Formulário Elaborado</title>
+</head>
+<body>
+    <div class="container">
+        <h1><b>Formulário</b></h1>
+        <form action="GRAVAR_DADOS.PHP" method="POST">
+        <div>
+            <fieldset>
+            <legend>Dados pessoais</legend>
+                <label>Nome: <input type="text" name="Nome" size="43"></label><br>
+                <label>Endereço: <input type="text" name="Endereço" size="40"></label><br>
+                <label>UF: 
+                    <select name="UF">
+                        <option value="NONE"></option>
+                        <option value="PE">PE</option>
+                        <option value="BH">BH</option>
+                        <option value="SC">SC</option>
+                        <option value="SP">SP</option>
+                        <option value="RJ">RJ</option>
+                        <option value="PR">PR</option>
+                        <option value="MS">MS</option>
+                    </select> 
+                    Cidade: <input type="text" name="Cidade" size="31"></label>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Dados profissionais</legend>
+                    <label for="CARGO">Natureza do cargo</label>
+                        <br>
+                        <input type="radio" name="CARGO" value="1">Gerência
+                        <input type="radio" name="CARGO" value="2">RH
+                        <input type="radio" name="CARGO" value="3">Financeiro
+                        <input type="radio" name="CARGO" value="4">Jurídico
+                        <input type="radio" name="CARGO" value="5">Administrativo <br>
+                    <br>
+                    <label for="Àrea">Área de interesse</label><br/>             
+                        <input type="checkbox" name="AREA1" value="COMP"/>Computação
+                        <input type="checkbox" name="AREA2" value="BIO"/>Biologia
+                        <input type="checkbox" name="AREA3" value="MA"/>Meio Ambiente
+                        <input type="checkbox" name="AREA4" value="EG"/>Engenharia
+                        <input type="checkbox" name="AREA5" value="HT"/>História
+                    <p>Mini-Curriculo <textarea name="Curriculo" id="" cols="75" rows="10" maxlength="500" 
+                        placeholder="Escreva de forma resumida suas experiências profissionais"></textarea></p>
+                    <input type="SUBMIT" name="ENVIAR" value="ENVIAR">
+                    <input type="RESET" value="LIMPAR">
+            </fieldset>
+            <a href="index.html"><img src="img/btn-back.png" alt="VOLTAR" width="40" height="40"></a>
+        </div>
+        </form>
+    </div>
+</body>
+</html>

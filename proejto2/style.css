@@ -1,0 +1,21 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.container {
+    background-color: rgb(184, 181, 178);
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 13px 13px 15px rgb(138, 116, 116);
+}
+
+body {
+    background-color: rgb(152, 153, 177);
+}

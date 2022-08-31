@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário de Inscrição</title>
+</head> 
+<body>
+    <div class="container">
+        <h1><b>Formulário de Inscrição</b></h1>
+        <form action="GRAVAR_DADOS.PHP" method="POST">
+        <p><b>Preencha seus dados</b></p>
+        <div>
+            <p>Nome: <input type="text" name="Nome" size="30" placeholder="Nome Completo"></p>
+            <p>E-mail: <input type="text" name="E-mail" size="30" placeholder="Endereço de E-mail"></p>
+            <p>Endereço: <input type="text" name="Endereço" size="40" placeholder="Endereço Residêncial"></p>
+            <p>UF: 
+                <select name="UF">
+                    <option value="NONE"></option>
+                    <option value="PE">PE</option>
+                    <option value="BH">BH</option>
+                    <option value="SC">SC</option>
+                    <option value="SP">SP</option>
+                    <option value="RJ">RJ</option>
+                    <option value="PR">PR</option>
+                    <option value="MS">MS</option>
+                </select> 
+                 Cidade: <input type="text" name="Cidade" size="31"></p>
+            <p>Telefone: <input type="text" name="DDD" size="1" placeholder="(00)"> <input type="text" name="Telefone" size="9" 
+                placeholder="00000-0000"></p>
+            <p>Usúario: <input type="text" name="Usúario" size="17"></p>
+            <p>Senha: <input type="password" name="Senha" size="18"></p>
+            <br>
+            <a href="index2.html"><img src="img/next.png" alt="Avançar" width="40" height="40"></a>
+        </div>
+        </form>
+    </div>
+</body>
+</html>
